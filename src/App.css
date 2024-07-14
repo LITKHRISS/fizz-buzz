@@ -1,0 +1,99 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+   
+
+}
+
+h1 {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    font-family: system-ui, -apple-system,
+     BlinkMacSystemFont, 'Segoe UI', 
+     Roboto, Oxygen, Ubuntu, Cantarell, 
+     'Open Sans', 'Helvetica Neue', 
+     sans-serif;
+    font-size: 120px;
+    color: cyan;
+    text-align: center;
+    
+}
+
+h1:hover {
+    
+    cursor:grab;
+    text-shadow: 1px 2px 8px #ffffff;
+} 
+
+
+#numbers {
+    font-size: 30px;
+    color:rgb(0, 217, 255);
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 10px;
+    border-radius: 23px;
+    background-color: #202020;
+    
+}
+
+#numbers:hover {
+    color: rgb(210, 4, 225);
+    
+    
+}
+
+#result {
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    margin: auto;
+    width: 60%;
+    padding: 150px;
+    color: rebeccapurple;
+    text-align: center;
+    
+}
+
+button {
+    background-color: cyan;
+    color: #000000;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s;
+    border-radius: 23px;
+}
+
+button:hover {
+    background-color:rebeccapurple;
+    color: white;
+}
+
+input {
+    border: 1px solid #000000;
+    padding: 8px;
+    font-size: 23px;
+    width: 20%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+    border-radius: 23px;
+    color: cyan;
+    background-color: #000000;
+}
+
+input:focus {
+    border-color: aquamarine; /* Change border color when focused */
+}
